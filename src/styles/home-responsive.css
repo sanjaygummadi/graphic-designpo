@@ -1,0 +1,60 @@
+@media (max-width: 768px) {
+  .home-section {
+    padding: 1rem;
+  }
+
+  .background-text {
+    font-size: clamp(4rem, 12vw, 8rem);
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+  }
+
+  .profile-image {
+    width: 200px;
+    height: 200px;
+  }
+
+  .name {
+    font-size: 3rem;
+  }
+
+  .subtitle {
+    font-size: 1.6rem;
+  }
+
+  .greeting {
+    font-size: 1.4rem;
+  }
+
+  .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn {
+    width: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .background-text {
+    font-size: clamp(3rem, 10vw, 6rem);
+  }
+
+  .name {
+    font-size: 2.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.4rem;
+  }
+
+  .greeting {
+    font-size: 1.2rem;
+  }
+
+  .profile-image {
+    width: 180px;
+    height: 180px;
+  }
+}
